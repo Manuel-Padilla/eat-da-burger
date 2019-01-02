@@ -1,6 +1,6 @@
 // require following npm packages
 const express = require("express");
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 const app = express();
 
 // serve static content from "public" directory
@@ -17,7 +17,7 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // import routes and give server access
-const routes = require("./controllers/burgers_controller.js");
+const routes = require("./controllers/burgers_controller");
 
 app.use(routes);
 
