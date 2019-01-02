@@ -24,3 +24,6 @@ const burger = {
     });
   }
 };
+
+// export database functions for the controller (burgers_controller.js)
+module.exports = burger;
