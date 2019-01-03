@@ -1,19 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy|Prompt");
+
+html,
+body {
+  background-image: url("../img/burger.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+div {
+  font-family: "Prompt", sans-serif;
+}
+
+.box,
+button {
+  box-shadow: 2px 2px 4px #a35e5e;
+}
+
+.header {
+  font-family: "Luckiest Guy", cursive;
+  text-align: center;
+  font-size: 6rem;
+  color: #fff;
+  line-height: 80px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.sub-header {
+  font-family: "Luckiest Guy", cursive;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #f1f1f1;
-}
-
-.label {
-  font-weight: bold;
-}
-
-.create-form {
-  padding: 5px;
-  margin: 5px;
-  background: #d6bcff;
-}
-
-.form-group {
-  margin-bottom: 5px;
+  list-style-type: none;
 }
