@@ -1,6 +1,6 @@
 // require following npm packages
 const express = require("express");
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 // serve static content from "public" directory

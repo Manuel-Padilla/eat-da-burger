@@ -1,5 +1,5 @@
 // Import MySQL connection
-const connection = require("../config/connection.js");
+const connection = require("./connection");
 
 // loops through and creates an array of question marks
 // ["?", "?", "?"] - and turns it into a string
